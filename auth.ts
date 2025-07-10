@@ -12,6 +12,7 @@ export const { auth, handlers, signIn, signOut } = NextAuth({
     }),
   ],
   secret: process.env.AUTH_SECRET,
+  trustHost: true,
   callbacks: {
     async session({ session, user }) {
       session.user.id = user.id;
