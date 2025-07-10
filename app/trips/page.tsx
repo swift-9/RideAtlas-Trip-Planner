@@ -85,13 +85,6 @@ export default async function TripsPage() {
                       {new Date(trip.endDate).toLocaleDateString()}
                     </div>
                   </CardContent>
-                  <div className="flex justify-between items-center mt-4">
-                    <span className="text-sm text-gray-500 ">
-                      {new Date(trip.startDate) > new Date()
-                        ? "Upcoming"
-                        : "Past"}
-                    </span>
-                  </div>
                 </Card>
               </Link>
             ))}

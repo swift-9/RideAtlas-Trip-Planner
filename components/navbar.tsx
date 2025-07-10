@@ -17,7 +17,7 @@ export default function Navbar({ session }: { session: Session | null }) {
             height={50}
           />
           <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-800">
-            RIDEAtlas Planner
+            RIDEAtlas Orbit
           </span>
         </Link>
 
