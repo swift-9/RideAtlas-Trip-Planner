@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "RideAtlas Orbit",
   description: "Plan your perfect trip, every time",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default async function RootLayout({
