@@ -16,6 +16,13 @@ This is part of the broader **RideAtlas** vision — a modular travel planning p
 
 ---
 
+![Google Maps API](https://img.shields.io/badge/API-Google%20Maps-blue)
+![Built with Next.js](https://img.shields.io/badge/Built%20With-Next.js-black)
+![TailwindCSS](https://img.shields.io/badge/Styled%20With-TailwindCSS-38bdf8)
+![Responsive](https://img.shields.io/badge/Mobile%20First-Yes-green)
+![Authentication](https://img.shields.io/badge/Auth-NextAuth.js-orange)
+![Database](https://img.shields.io/badge/Database-Prisma%20%2B%20PostgreSQL-purple)
+
 ## ✨ Features
 
 - 🗺 **Interactive 3D Globe** – Navigate and explore destinations from a global perspective.
