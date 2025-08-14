@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <h1>🌍 RideAtlas-EX</h1>
+  <h1>🌍 RideAtlas-Orbit</h1>
   <p>
     <b>Prototype Global Trip Planner</b> — Featuring an interactive 3D globe, Google Maps APIs, and trip history visualization for a rich travel planning experience.
   </p>
@@ -9,7 +9,7 @@
 
 ## 🚀 Overview
 
-RideAtlas-EX is a **Next.js-based** prototype designed to explore the future of global trip planning.  
+RideAtlas-Orbit is a **Next.js-based** prototype designed to explore the future of global trip planning.  
 It integrates an **interactive 3D globe**, **Google Maps APIs**, and **dynamic trip history visualizations** to help users plan, visualize, and revisit their travel experiences in an intuitive way.
 
 This is part of the broader **RideAtlas** vision — a modular travel planning platform built to eventually scale into a state-wise and global travel companion.
