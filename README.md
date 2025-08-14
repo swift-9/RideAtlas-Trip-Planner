@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <br />
+  <h1>🌍 RideAtlas-EX</h1>
+  <p>
+    <b>Prototype Global Trip Planner</b> — Featuring an interactive 3D globe, Google Maps APIs, and trip history visualization for a rich travel planning experience.
+  </p>
+  <br />
+</div>
 
-## Getting Started
+## 🚀 Overview
 
-First, run the development server:
+RideAtlas-EX is a **Next.js-based** prototype designed to explore the future of global trip planning.  
+It integrates an **interactive 3D globe**, **Google Maps APIs**, and **dynamic trip history visualizations** to help users plan, visualize, and revisit their travel experiences in an intuitive way.
+
+This is part of the broader **RideAtlas** vision — a modular travel planning platform built to eventually scale into a state-wise and global travel companion.
+
+---
+
+## ✨ Features
+
+- 🗺 **Interactive 3D Globe** – Navigate and explore destinations from a global perspective.
+- 📍 **Google Maps API Integration** – Search, visualize, and plan routes seamlessly.
+- 📝 **Trip History Visualization** – View and relive your past journeys with engaging visuals.
+- ⚡ **Next.js Performance** – Optimized routing, rendering, and performance out of the box.
+- 🎨 **Modern UI** – Clean, responsive design for an immersive planning experience.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org)
+- **3D Globe**: Three.js / react-three-fiber (for visualization)
+- **Maps & Places**: Google Maps JavaScript API, Places API
+- **Styling**: Tailwind CSS
+- **Hosting**: [Vercel](https://vercel.com)
+
+---
+
+## ⚡ Getting Started
+
+1️⃣ **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/rideatlas-ex.git
+cd rideatlas-ex
+```
+
+2️⃣ Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+---
+
+3️⃣ Set up environment variables
+Create a .env.local file in the root directory and add:
+
+```bash
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+4️⃣ Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your app will be available at: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖼️ Screenshots
 
-## Learn More
+## <div><img src="public/pic.png" alt="Screenshot" /></div>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ☁️ Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Deploy on Vercel
 
-## Deploy on Vercel
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Import your repository
+4. Click **Deploy**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Your live website will be hosted on a custom subdomain (e.g. `https://your-name.vercel.app`)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔗 Useful Links
+
+- [React Documentation](https://reactjs.org/)
+- [Tailwind CSS Docs](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Vercel](https://vercel.com/)
+
+---
+
+Let me know if you'd like me to generate a version with your actual GitHub repo, YouTube URL, or a banner image suggestion!
