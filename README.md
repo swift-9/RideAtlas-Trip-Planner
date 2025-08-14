@@ -93,6 +93,8 @@ Your app will be available at: [http://localhost:3000](http://localhost:3000)
 
 ## <div><img src="public/pic2.png" alt="Screenshot" /></div>
 
+## <div><img src="public/pic3.png" alt="Screenshot" /></div>
+
 ---
 
 ## ☁️ Deployment
