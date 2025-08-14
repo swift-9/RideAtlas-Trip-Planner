@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "RideAtlas Orbit",
   description: "Plan your perfect trip, every time",
   icons: {
-    icon: "/logo.svg",
+    icon: "logo.svg",
   },
 };
 
